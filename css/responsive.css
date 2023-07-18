@@ -1,0 +1,117 @@
+@media(max-width: 1004px){
+    .header_menu{
+        position: absolute;
+        top: 100%;
+        left: -250px;
+        width: 250px;
+        height: auto;
+        background: rgba(0, 0, 0, .67);
+        padding-top: 30px;
+        padding-bottom: 40px;
+        border-radius: 20px;
+    }
+    .header_menu a{
+        display: block;
+        margin: 10px 30px;
+
+    }
+    .menu_icon{
+        display: block;
+        cursor: pointer;
+    }
+    .menu_icon i.fa-xmark{
+        display: none;
+    }
+    .banner_left_content {
+        width: 100%;
+        -webkit-box-ordinal-group: 3;
+            -ms-flex-order: 2;
+                order: 2;
+        margin-bottom: 50px;
+    }
+    .banner_right_img {
+        width: 80%;
+        position: relative;
+        margin-bottom: 40px;
+    }
+    .banner_section {
+        height: auto;
+        padding-bottom: 50px;
+        
+    }
+    .banner_left_content h3 {
+        font-size: 35px;
+    }
+    .banner_left_content span {
+        font-size: 25px;
+    }
+    #about h2{
+        font-size: 40px;
+    }
+    .skills_row .skills_column{
+        width: 100%;
+    }
+    .footer_column_left{
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+    .footer_column_right{
+        width: 100%;
+    }
+    #about h2,
+    .about_title{
+        font-size: 35px;
+    }
+    .about_title::before{
+        width: 100px;
+        left: 80px;
+    }
+    .about_title::after{
+        width: 100px;
+        height: 2px;
+        background: var(--main-color);
+        position: absolute;
+        top: 110%;
+        left: 110px;
+    }
+    #contact .about_title::before{
+        width: 130px;
+        left: 110px;
+    }
+    #contact .about_title::after{
+        width: 130px;
+        height: 2px;
+        background: var(--main-color);
+        position: absolute;
+        top: 110%;
+        left: 140px;
+    }
+
+    .banner_left_content span {
+        background-position: 0 0;
+        -webkit-animation: homebgtext 6s linear infinite;
+                animation: homebgtext 6s linear infinite;
+        -webkit-animation-delay: 0;
+                animation-delay: 0;
+    }
+    .banner_left_content span::before {
+        -webkit-animation: none;
+                animation: none;
+        height: 0;
+    }
+
+}
+@media(max-width: 575px){
+    
+    .banner_left_content h3 {
+        font-size: 30px;
+    }
+    .banner_left_content span {
+        font-size: 18px;
+    }
+    .about_content h3{
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+}

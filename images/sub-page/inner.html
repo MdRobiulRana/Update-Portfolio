@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanks</title>
+    <style>
+        header{
+            padding: 100px 0;
+            background: #112e42;
+        }
+        .container{
+            width: 80%;
+            margin: auto;
+            text-align: center;
+        }
+        h2{
+            font-size: 35px;
+            font-weight: 700;
+            color: #ededed;
+        }
+        p{
+            font-size: 22px;
+            color: #fff;
+        }
+        a{
+        padding: 15px 45px;
+        background-color: #00abf0;
+        border-radius: 10px;
+        text-decoration: none;
+        color: #ededed;
+        margin-top: 30px;
+        display: inline-block;
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
+        font-size: 20px;
+        border: 4px solid #00abf0;
+        }
+        a::before{
+            content: '';
+            width: 0;
+            height: 100%;
+            background: #112e42;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            transition: all .5s;
+        }
+        a:hover::before{
+            width: 100%;
+        }
+        @media(max-width: 575px){
+            h2{
+                font-size: 23px;
+                text-align: left;
+            }
+            .container{
+                text-align: left;
+            }
+            p{
+                font-size: 17px;
+            }
+            a{
+                padding: 10px 30px;
+            }
+        }
+    </style>
+</head>
+<body>
+   <header>
+    <div class="container">
+        <h2>Thanks for opportunity!</h2>
+        <p>Seeking an opportunity to work as a Web Designer in a professional environment where I can contribute my knowledge and experience. Want to pursue a long term career taking challenges & committed to achieve result by working in a competent sector with an ethical mind so as to utilize my knowledge and skills for organization and individual growth.</p>
+        <p>As a frontend developer, I am passionate about creating engaging and user-friendly websites and applications. With 1 years of experience, I have successfully designed and developed responsive web interfaces using HTML5, CSS3, and JavaScript... I am highly skilled in utilizing jQuery to add dynamic elements, implement smooth animations, and streamline data handling. Additionally, I have expertise in leveraging Bootstrap to create visually appealing and mobile-friendly layouts. I am constantly expanding my knowledge of frontend frameworks like React and Vue.js to stay updated with the latest trends in web development.</p>
+        <a href="../../index.html">Back Portfolio</a>
+       </div>
+   </header>
+</body>
+</html>
